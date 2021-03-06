@@ -24,3 +24,4 @@ samps = [sample(f) for i in range(10000)]
 #Plotting the results for visualisation
 plt.hist(samps, density=True, alpha=0.2, label="Sample distribution")
 plt.xlim(0, 1), plt.ylim(0, 1.4), plt.xlabel("x"), plt.ylabel("y"), plt.legend();
+plt.show()
